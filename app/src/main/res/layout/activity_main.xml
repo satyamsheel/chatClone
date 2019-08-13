@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/harsh"
+    tools:context=".MainActivity">
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#666"
+        app:mtf_image="@drawable/human"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/layout_et1"
+        android:alpha="0.6"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Usename"
+            android:textColor="#333"
+            android:textSize="20sp"
+            android:id="@+id/et1"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#666"
+        app:mtf_image="@drawable/password"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/layout_et2"
+        android:alpha="0.6"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Password"
+            android:textColor="#333"
+            android:textSize="20sp"
+            android:id="@+id/et2"
+            android:inputType="textPassword"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.manojbhadane.QButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        app:qb_backgroundColor="@color/btnBlue1"
+        app:qb_radius="100"
+        app:qb_strokeColor="@color/btnBlueLight"
+        app:qb_strokeWidth="5"
+        android:id="@+id/but1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="No account yet? Create one"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/tv1"/>
+
+
+
+
+
+</RelativeLayout>
